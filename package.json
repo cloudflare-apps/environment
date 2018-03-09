@@ -1,0 +1,10 @@
+{
+  "name": "@cloudflare-apps/environment",
+  "version": "1.0.0",
+  "description": "Portable Cloudflare Apps installation environment.",
+  "main": "index.js",
+  "repository": "git@github.com:cloudflare-apps/environment.git",
+  "author": "Cloudflare Inc.",
+  "license": "BSD-3-Clause",
+  "private": false
+}
