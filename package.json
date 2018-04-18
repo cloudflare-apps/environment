@@ -1,6 +1,6 @@
 {
   "name": "@cloudflare-apps/environment",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Portable Cloudflare Apps installation environment.",
   "main": "index.js",
   "repository": "git@github.com:cloudflare-apps/environment.git",
@@ -12,5 +12,10 @@
   },
   "devDependencies": {
     "standard": "^11.0.1"
+  },
+  "standard": {
+    "globals": [
+      "CloudflareApps"
+    ]
   }
 }
