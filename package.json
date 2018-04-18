@@ -6,5 +6,11 @@
   "repository": "git@github.com:cloudflare-apps/environment.git",
   "author": "Cloudflare Inc.",
   "license": "BSD-3-Clause",
-  "private": false
+  "private": false,
+  "scripts": {
+    "lint": "standard --fix ./lib/**/*.js || true"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
 }
